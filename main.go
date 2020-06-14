@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/clivern/terraform-provider-beetle/boilerplate"
+	"github.com/clivern/terraform-provider-beetle/beetle"
 	"github.com/hashicorp/terraform-plugin-sdk/plugin"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 )
@@ -13,7 +13,7 @@ import (
 func main() {
 	plugin.Serve(&plugin.ServeOpts{
 		ProviderFunc: func() terraform.ResourceProvider {
-			return boilerplate.Provider()
+			return beetle.Provider()
 		},
 	})
 }

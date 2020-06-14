@@ -2,7 +2,7 @@
 // Use of this source code is governed by the MIT
 // license that can be found in the LICENSE file.
 
-package boilerplate
+package beetle
 
 import (
 	"log"
@@ -22,14 +22,14 @@ func Provider() *schema.Provider {
 			"api_url": {
 				Type:     schema.TypeString,
 				Optional: true,
-				Default:  "api.boilerplate.com",
+				Default:  "api.beetle.com",
 			},
 		},
 		DataSourcesMap: map[string]*schema.Resource{
-			"boilerplate_image": dataSourceBoilerplateImage(),
+			"beetle_image": dataSourceBoilerplateImage(),
 		},
 		ResourcesMap: map[string]*schema.Resource{
-			"boilerplate_server": resourceBoilerplateServer(),
+			"beetle_server": resourceBoilerplateServer(),
 		},
 		ConfigureFunc: providerConfigure,
 	}
