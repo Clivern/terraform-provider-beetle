@@ -17,4 +17,4 @@
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
-terraform-provider-boilerplate
+terraform-provider-beetle

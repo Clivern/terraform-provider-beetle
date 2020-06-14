@@ -1,4 +1,4 @@
-module github.com/clivern/terraform-provider-boilerplate
+module github.com/clivern/terraform-provider-beetle
 
 go 1.14
 

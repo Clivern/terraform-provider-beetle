@@ -28,7 +28,7 @@ script:
   # Fix dir names
   - cd $GOPATH/src/github.com/
   - mv Clivern clivern
-  - cd clivern/terraform-provider-boilerplate
+  - cd clivern/terraform-provider-beetle
   # Config & execute ci tasks
   - make install_revive
   - make ci

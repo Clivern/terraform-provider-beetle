@@ -1,4 +1,4 @@
-// Copyright 2019 Clivern. All rights reserved.
+// Copyright 2020 Clivern. All rights reserved.
 // Use of this source code is governed by the MIT
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package boilerplate
 import (
 	"log"
 
-	"github.com/clivern/terraform-provider-boilerplate/sdk"
+	"github.com/clivern/terraform-provider-beetle/sdk"
 )
 
 // Client provider client
