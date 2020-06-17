@@ -2,7 +2,6 @@
     <img alt="terraform-provider-beetle Logo" src="https://www.terraform.io/assets/images/og-image-8b3e4f7d.png" width="150" />
     <h3 align="center">Beetle Terraform Provider</h3>
     <p align="center">
-        <a href="https://godoc.org/github.com/Clivern/terraform-provider-beetle"><img src="https://godoc.org/github.com/Clivern/terraform-provider-beetle?status.svg"></a>
         <a href="https://travis-ci.org/Clivern/terraform-provider-beetle"><img src="https://travis-ci.org/Clivern/terraform-provider-beetle.svg?branch=master"></a>
         <a href="https://github.com/Clivern/terraform-provider-beetle/releases"><img src="https://img.shields.io/badge/Version-0.0.1-red.svg"></a>
         <a href="https://goreportcard.com/report/github.com/Clivern/terraform-provider-beetle"><img src="https://goreportcard.com/badge/github.com/Clivern/terraform-provider-beetle?v=0.2.2"></a>
