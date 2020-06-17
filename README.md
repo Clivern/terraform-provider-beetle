@@ -25,6 +25,8 @@ $ make ARGS="terraform-provider-beetle" build
 $ go build -o terraform-provider-beetle
 ```
 
+You must install this provider manually in order to use it. This link has the required steps https://www.terraform.io/docs/configuration/providers.html#third-party-plugins
+
 ## Versioning
 
 For transparency into our release cycle and in striving to maintain backward compatibility, terraform-provider-beetle is maintained under the [Semantic Versioning guidelines](https://semver.org/) and release process is predictable and business-friendly.
