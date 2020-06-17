@@ -24,6 +24,8 @@ $ make ARGS="terraform-provider-beetle" build
 $ go build -o terraform-provider-beetle
 ```
 
+Also you can download one of the latest binary from here https://github.com/Clivern/terraform-provider-beetle/releases
+
 You must install this provider manually in order to use it. This link has the required steps https://www.terraform.io/docs/configuration/providers.html#third-party-plugins
 
 ## Versioning
