@@ -17,7 +17,7 @@ func Provider() *schema.Provider {
 			"api_key": {
 				Type:        schema.TypeString,
 				Required:    true,
-				DefaultFunc: schema.EnvDefaultFunc("EXAMPLE_API_KEY", nil),
+				DefaultFunc: schema.EnvDefaultFunc("BEETLE_API_KEY", nil),
 			},
 			"api_url": {
 				Type:     schema.TypeString,
@@ -25,11 +25,8 @@ func Provider() *schema.Provider {
 				Default:  "api.beetle.com",
 			},
 		},
-		DataSourcesMap: map[string]*schema.Resource{
-			"beetle_image": dataSourceBoilerplateImage(),
-		},
 		ResourcesMap: map[string]*schema.Resource{
-			"beetle_server": resourceBoilerplateServer(),
+			"beetle_server": resourceBeetleApplication(),
 		},
 		ConfigureFunc: providerConfigure,
 	}
