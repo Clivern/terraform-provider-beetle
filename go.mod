@@ -1,6 +1,6 @@
 module github.com/clivern/terraform-provider-beetle
 
-go 1.14
+go 1.19
 
 require (
 	github.com/clivern/beetle v0.2.2
