@@ -4,5 +4,6 @@ go 1.14
 
 require (
 	github.com/clivern/beetle v0.2.2
-	github.com/hashicorp/terraform-plugin-sdk v1.16.0
+	github.com/hashicorp/terraform-plugin-sdk v1.17.2
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.25.0
 )
